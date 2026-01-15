@@ -2,10 +2,14 @@
 A way to recreate Funny Mic in python
 
 
+
+To run you need python and a few requirments, either run req.bat or 'pip install sounddevice numpy scipy keyboard' in your terminal.
+#If you want to verify the authenticcity of the bat filed just rightclick and do edit in notepad
+
 First run soundlist.bat or alternativly 'python soundlist.py' in terminal
 
 that will give you something like this:
-
+'''
 >1 Voicemeeter Out B1 (VB-Audio Vo, MME (8 in, 0 out)
 2 Voicemeeter Out A2 (VB-Audio Vo, MME (8 in, 0 out)
 3 Voicemeeter Out A1 (VB-Audio Vo, MME (8 in, 0 out)
@@ -23,7 +27,7 @@ that will give you something like this:
 15 Line (Voicemod Virtual Audio De, MME (0 in, 2 out)
 16 Voicemeeter In 4 (VB-Audio Voic, MME (0 in, 8 out)
 17 Realtek Digital Output (Realtek, MME (0 in, 2 out)
-
+'''
 
 the two with the arrows are the selected input and output of windows.
 
